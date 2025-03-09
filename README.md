@@ -26,6 +26,8 @@ if you cant downlaod this from here use my googledrive link : https://drive.goog
  
 Before running the finetune_script & inference_script.ipynb, ensure that the dataset (new.json) is also located in the same folder. The training process took around 40 minutes to complete and saved the file in GGuff format.
 
+<img src="screenshots/train.png" alt="training" width="900">
+
 
 ## Dataset (New.json)
 
@@ -36,6 +38,8 @@ Before running the finetune_script & inference_script.ipynb, ensure that the dat
 ## inference UI
 
 This guide should help you set up and run the inference UI using **Chainlit**. 
+
+<img src="screenshots/UI.png" alt="training" width="900">
 
 ### Step-by-Step Setup
 
@@ -160,9 +164,15 @@ chainlit run index.py
 
 #### 6. Using the RAG System
 
-1. Wait for the initialization message: "✅ RAG system initialized successfully!"
-2. Once initialized, you can ask questions about the content of your documents
-3. The system will retrieve relevant information from your documents and generate responses
+1. **Wait for the initialization message: "✅ RAG system initialized successfully!"**
+   
+   <img src="screenshots/wait.gif" alt="training" width="800">
+   
+2. **Once initialized, you can ask questions about the content of your documents**
+   
+   <img src="screenshots/Rag.png" alt="training" width="800">
+   
+3. **The system will retrieve relevant information from your documents and generate responses**
 
 
 
