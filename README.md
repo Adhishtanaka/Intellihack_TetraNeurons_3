@@ -39,6 +39,46 @@ Before running the finetune_script & inference_script.ipynb, ensure that the dat
 - The dataset is formatted with instructions and outputs, which are converted into the Alpaca-style format.
 - Since the dataset is smaller, the number of training steps has been **increased** to ensure adequate model convergence without harming the functionality of the model.
 
+
+### step by step Setup
+
+1. type this command in terminal
+
+```bash
+# Navigate to your project directory
+cd Dataset-Generate-Script
+
+# Create a virtual environment
+python -m venv venv
+
+# Activate the virtual environment
+# On Windows:
+venv\Scripts\activate
+# On macOS/Linux:
+source venv/bin/activate
+
+#Install dependencies
+pip install -r requirements.txt
+```
+
+2. **Update the `.env` file:**
+     ```ini
+     GEMINI_API_KEY=your_api_key_here
+     ```
+3. The `md/` folder can be used to store Markdown files that act as a foundation to dataset.
+
+4. **Running the Scripts**
+
+   ```bash
+   # Run `generate.py`** to generate the initial dataset:
+   python generate.py
+   # Run `format.py`** to format the dataset and create `new.json`
+   python format.py
+   ```
+
+- The final dataset will be saved as `new.json` in the project directory.Running the script will generate 1 file in approximately 1 minute.For 10 iterations, it will produce 6 files due to API limitations in Gemini API.The entire process will take approximately **70 minutes** to complete.
+
+
 ## inference UI
 
 This guide should help you set up and run the inference UI using **Chainlit**. 
