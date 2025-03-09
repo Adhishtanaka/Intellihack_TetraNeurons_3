@@ -28,6 +28,10 @@ Before running the finetune_script & inference_script.ipynb, ensure that the dat
 
 <img src="screenshots/train.png" alt="training" width="900">
 
+**You can also use inbuild script to inference with llm**
+
+<img src="screenshots/test.gif" alt="training" width="900">
+
 
 ## Dataset (New.json)
 
@@ -40,45 +44,6 @@ Before running the finetune_script & inference_script.ipynb, ensure that the dat
 This guide should help you set up and run the inference UI using **Chainlit**. 
 
 <img src="screenshots/UI.png" alt="training" width="900">
-
-### Step-by-Step Setup
-
-#### 1. Create a Virtual Environment
-
-```bash
-# Navigate to your project directory
-cd inference UI
-
-# Create a virtual environment
-python -m venv venv
-
-# Activate the virtual environment
-# On Windows:
-venv\Scripts\activate
-# On macOS/Linux:
-source venv/bin/activate
-```
-
-#### 2. Install Requirements
-
-```bash
-# Install from requirements.txt
-pip install -r requirements.txt
-
-```
-
-#### 3. Run Your Chainlit App
-
-```bash
-# Run the app
-chainlit run index.py
-```
-
-This will start a local server, typically at http://localhost:8000, where you can interact with your inference UI.
-
-## Rag-Script
-
-This guide should help you set up and run the inference UI using **Chainlit** to communicate with gguf. 
 
 ### Step-by-Step Setup
 
