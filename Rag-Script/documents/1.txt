@@ -1,0 +1,63 @@
+Thiramithu Kulasooriya: A Passionate Developer and Innovator
+
+Thiramithu Kulasooriya is a highly motivated and skilled computer science undergraduate with a strong passion for software development, artificial intelligence, and web technologies. With expertise spanning multiple programming languages and frameworks, Thiramithu has demonstrated proficiency in full-stack development, mobile applications, search engine technology, and cross-platform software solutions.
+
+Technical Expertise
+
+Thiramithu possesses a diverse technical skill set, including but not limited to:
+
+Programming Languages: JavaScript (React, Next.js), TypeScript, Python, Dart (Flutter), C#, and Node.js.
+
+Backend Development: Express.js with MongoDB, MySQL, and Mongoose.
+
+Frontend Development: React with Tailwind CSS, HTMX, and TanStack Query.
+
+Mobile Development: Flutter for cross-platform mobile applications.
+
+Databases: MongoDB, MySQL, and Firebase.
+
+Web Scraping & AI Integration: BeautifulSoup, DuckDuckGo Search API, and custom AI-driven search engines.
+
+Development Tools & Frameworks: Visual Studio Code, Electron, Riverpod (Flutter), and various package managers.
+
+Cloud & Deployment: Firebase, Vercel, and server-side optimizations.
+
+Notable Projects
+
+Aana - AI-Powered Search EngineAana is a web-scraping-based search engine designed to provide real-time, AI-assisted responses. Unlike traditional search engines, it optimizes token usage and integrates AI techniques for smarter results. It is built using Python and React.
+
+QubeCrawl - Web Scraping ToolQubeCrawl is a customized web scraping tool that extracts meaningful content while filtering out unnecessary UI elements. It shares code with Aana and serves as a lightweight HTML-to-text conversion library optimized for LLM use cases.
+
+VS Code Extension for Developer AnalyticsThis extension logs and analyzes a developer’s working habits, tracking coding hours, most frequent commit times, and overall productivity in VS Code. It uses TypeScript and leverages VS Code's global storage capabilities.
+
+Cross-Platform Download ManagerInspired by Internet Download Manager (IDM), this project aims to create a Flutter-based download manager for Windows, macOS, and Linux. It utilizes Dio, PathProvider, and SharedPreferences for efficient file downloads.
+
+PWA App StoreThiramithu is working on an innovative app store that allows users to discover and install Progressive Web Apps (PWAs) seamlessly. This platform is designed for enhanced user experience and accessibility.
+
+Development Philosophy & Preferences
+
+Thiramithu prefers clean, minimal, and efficient code. Some of his core development philosophies include:
+
+Simplicity Over Complexity: Avoiding unnecessary UI components like modals unless essential.
+
+Performance Optimization: Ensuring token efficiency in AI projects and optimizing data fetching using TanStack Query.
+
+User-Centric Design: Prioritizing professional and seamless user experiences in web applications.
+
+Modern Tooling: Leveraging the latest technologies like HTMX for lightweight frontend interactions and Tailwind CSS for responsive UI design.
+
+Future Goals
+
+Thiramithu is constantly exploring new innovations in AI, web development, and cross-platform applications. Some of his key future goals include:
+
+Enhancing Aana into a more sophisticated AI-driven search engine.
+
+Expanding the PWA App Store to support a broader range of applications.
+
+Contributing to open-source projects that push the boundaries of search and AI.
+
+Refining developer analytics tools for better productivity insights.
+
+Conclusion
+
+Thiramithu Kulasooriya is an ambitious and talented software developer who continuously strives to improve and innovate. With a strong foundation in web technologies, AI-powered applications, and full-stack development, he is well-positioned to make significant contributions to the tech industry.
